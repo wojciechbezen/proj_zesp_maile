@@ -86,7 +86,7 @@ public class MailSender
     {
         Topic = "Przypomnienie dla Uzytkownika "+ userData;
         MessageContent = "Szanowny Uzytkowniku " + userData + ", \n";
-        MessageContent += "Przypominamy konieczności zwrotu przedmiotu: " + itemName + "\n";
+        MessageContent += "Przypominamy o konieczności zwrotu przedmiotu: " + itemName + "\n";
         MessageContent += "Pozdrawiamy serdecznie, \n";
         MessageContent += "Zespół Toyota";
         System.out.println(Topic);
